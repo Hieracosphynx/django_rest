@@ -9,3 +9,7 @@
 <p>"Field flags can also control how serializer should be displayed in certain circumstances"</p>
 <p>Example: <b style="color:red">{ 'base_template': 'textarea.html' }</b></p>
 <p>This is the as using widget. Its widget counterpart: <b>widget=widgets.Textarea</b></p>
+
+<h3>Accessing HTTP APIs</h3>
+<p>In the tutorial, it is suggested to use Httpie</p>
+<p>To download: <b>pip install Httpie</b></p>
