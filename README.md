@@ -5,3 +5,7 @@
     <li>TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')</li>
     <li>STATIC_DIR = os.path.join(BASE_DIR, 'static')</li>
 </ul>
+<p>"<b>Serializer</b> class is similar to a <i>Django Form</i> class"</p>
+<p>"Field flags can also control how serializer should be displayed in certain circumstances"</p>
+<p>Example: <b style="color:red">{ 'base_template': 'textarea.html' }</b></p>
+<p>This is the as using widget. Its widget counterpart: <b>widget=widgets.Textarea</b></p>
