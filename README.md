@@ -1,4 +1,7 @@
-<h3>Link to <a href="https://www.django-rest-framework.org/tutorial/1-serialization/">tutorial</a></h3>
+<h3>Links</a></h3>
+<p><a href="https://www.django-rest-framework.org/tutorial/1-serialization/#where-are-we-now">Serialization</a></p>
+<p><a href="https://www.django-rest-framework.org/tutorial/2-requests-and-responses/">Requests and Responses</a></p>
+
 <h3>Setting up</h3>
 <ul>
     <li>BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</li>
@@ -13,3 +16,15 @@
 <h3>Accessing HTTP APIs</h3>
 <p>In the tutorial, it is suggested to use Httpie</p>
 <p>To download: <b>pip install Httpie</b></p>
+
+<h3>Difference request.POST and request.data</h3>
+<p>request.POST  # Only handles form data.  Only works for 'POST' method.</p>
+<p>request.data  # Handles arbitrary data.  Works for 'POST', 'PUT' and 'PATCH' methods.</p>
+<p><i>See part 2 of the <a href="https://www.django-rest-framework.org/tutorial/2-requests-and-responses/">tutorial</a></i></p>
+
+<h3>Wrapping API Views</h3>
+<p>Calling API views:</p>
+<ul>
+    <li><b>@api_view</b> for function-based views</li>
+    <li><b>APIView</b> for class-based views</li>
+</ul>
