@@ -28,3 +28,7 @@
     <li><b>@api_view</b> for function-based views</li>
     <li><b>APIView</b> for class-based views</li>
 </ul>
+
+<h3>Format suffix for URL</h3>
+<p>The <i>format=None</i> enables the website to accept any kind of format. Like HTML and JSON</p>
+<p>See <a href="https://www.django-rest-framework.org/tutorial/2-requests-and-responses/">Tutorial 2</a> for a more detailed explanation.</p>

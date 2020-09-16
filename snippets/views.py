@@ -10,7 +10,7 @@ from snippets.serializers import SnippetSerializer
 
 # Create your views here.
 @api_view(['GET', 'POST'])
-def snippet_list(request):
+def snippet_list(request, format=None):
     if request.method == 'GET':
         snippets = Snippet.objects.all()
         serializer = SnippetSerializer(snippets, many=True)
@@ -35,7 +35,7 @@ def snippet_list(request):
     #     return JsonResponse(serializer.errors, status=400)
 
 @api_view(['GET', 'PUT', 'DELETE'])
-def snippet_detail(request, pk):
+def snippet_detail(request, pk, format=None):
     # Retrieve a particular snippet record
     try:
         snippet = Snippet.objects.get(pk=pk)
